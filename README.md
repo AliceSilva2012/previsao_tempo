@@ -64,8 +64,10 @@ Abaixo está o formato de como os dados processados pelas APIs são exibidos na 
 
 ## 🚀 Como Executar o Projeto Localmente
 
+Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga os passos abaixo:
+
 ### Pré-requisitos
-- Um navegador web moderno (Google Chrome é recomendado para o uso do microfone).
+- Um navegador web moderno (Google Chrome, Firefox, Edge, etc.).
 - [Git](https://git-scm.com) instalado na máquina.
 - Um editor de código como o [VS Code](https://code.visualstudio.com/) (opcional).
 
@@ -73,4 +75,25 @@ Abaixo está o formato de como os dados processados pelas APIs são exibidos na 
 
 1. **Clone este repositório:**
    ```bash
-   git clone COLOQUE_O_LINK_DO_SEU_REPOSITORIO_AQUI
+   git clone https://github.com/AliceSilva2012/previsao_tempo.git
+   ```
+
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd previsao_tempo
+   ```
+
+3. **Execute a aplicação:**
+   - Dê um duplo clique no arquivo `index.html` para abri-lo no navegador, ou
+   - Clique com o botão direito no `index.html` e selecione **Open with Live Server**.
+
+---
+
+## 📁 Estrutura do Arquivo
+
+```mermaid
+graph LR;
+    Root[📁 Projeto Previsão do Tempo]
+    Root --> HTML[📄 index.html - Estrutura principal]
+    Root --> CSS[🎨 style.css - Estilização visual]
+    Root --> JS[📜 script.js - Lógica das APIs e voz]
