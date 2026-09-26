@@ -1,6 +1,6 @@
 # Previsão do Tempo 🌤️🌧️
 
-![Interface do Projeto](COLOQUE_O_LINK_DA_SUA_IMAGEM_AQUI)
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/963d8c4f-f3fb-4011-a373-e493a4f550a8" />
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
