@@ -1,91 +1,109 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #e0f2fe, #dbeafe);
+  background-image: url('https://wallpapercave.com/wp/85Cy3KP.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /*VH = View Height => Nada mais, nada menos que a tela que a gente tá vendo*/
+  width: 100vw; /*Mesma coisa,só que pra largura*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .caixa-maior {
-    width: min(520px, 90vw);
-    background: #ffffff;
-    border-radius: 18px;
-    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
-    padding: 24px;
+  background-color: rgba(34, 34, 34, 0.9);
+  width: 350px;
+  padding: 20px;
+  border-radius: 15px;
 }
 
 .input-cidade {
-    width: 100%;
-    padding: 12px 14px;
-    border: 1px solid #cbd5e1;
-    border-radius: 10px;
-    font-size: 16px;
-    margin-bottom: 16px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+  font-size: 20px;
+  width: calc(100% - 120px); /*Cálculo(total da tela - 100 pixels)*/
 }
 
 .botao {
-    background: #2563eb;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 14px;
-    margin-right: 10px;
-    cursor: pointer;
+  padding: 10px;
+  border: none;
+  background-color: #222;
+  border-radius: 50%; /*Pra ficar redondo*/
+  margin-left: 10px; /*Espaçinho*/
+  float: right; /*Os botões vão todo pra direita (até onde ele consegue ir no card)*/
+  display: flex;
+  align-items: center; /*Vertical*/
+  justify-content: center; /*Horizontal*/
+  cursor: pointer; /*Mãozinha, invés de um mouse*/
+  transition: 0.2s;
 }
 
-.botao:last-of-type {
-    margin-right: 0;
-}
-
-.img-botao {
-    display: block;
+.botao:hover {
+  background-color: #7c7c7c;
+  transform: scale(1.1); /*Vai fazer dar uma crescidinha*/
 }
 
 .caixa-media {
-    margin-top: 24px;
-    padding-top: 12px;
+  margin-top: 30px;
 }
 
 .cidade {
-    font-size: 1.8rem;
-    margin-bottom: 8px;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 10px;
 }
 
 .temp {
-    font-size: 2.6rem;
-    font-weight: bold;
-    margin-bottom: 12px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
 }
 
 .icone {
-    width: 64px;
-    height: 64px;
-    margin-bottom: 8px;
+  width: clamp(90px, 12vw, 120px);
+  height: auto;
 }
 
 .umidade {
-    margin-bottom: 16px;
-    color: #334155;
+  color: #fff;
 }
 
 .botao-ia {
-    padding: 10px 16px;
-    border: none;
-    border-radius: 8px;
-    background: #10b981;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
+  border-radius: 10px; 
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #008000;
+  border: none;
+  cursor: pointer;
+}
+
+.botao-ia:active {
+  transform: scale(0.98);
 }
 
 .respostaIA {
-    margin-top: 14px;
-    color: #0f172a;
-    line-height: 1.5;
+  color: #fff;
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url('https://wallpapercave.com/wp/85Cy3KP.jpg');
+  }
 }
