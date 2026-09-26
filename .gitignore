@@ -1,0 +1,10 @@
+# Local configs with secrets
+config.js
+.env
+.env.*
+
+# Keep the example template tracked
+!config.example.js
+
+# macOS
+.DS_Store
