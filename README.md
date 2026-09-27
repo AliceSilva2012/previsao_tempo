@@ -14,7 +14,7 @@
 
 O **Previsão do Tempo** é uma plataforma web criada com o objetivo de fornecer informações climáticas precisas e em tempo real de qualquer cidade do mundo. Além da interface intuitiva e busca por texto, o projeto inova ao integrar uma IA que sugere uma roupa com base na temperatura e umidade atuais da região pesquisada.
 
-Esse projeto destaca conceitos avançados de manipulação do DOM, consumo de múltiplas APIs RESTful, requisições assíncronas, métodos HTTP (GET/POST) e utilização de recursos nativos do navegador como a Web Speech API.
+Esse projeto destaca conceitos avançados de manipulação do DOM, consumo de múltiplas APIs RESTful, requisições assíncronas, métodos HTTP (`GET`/`POST`) e utilização de recursos nativos do navegador como a Web Speech API.
 
 ---
 
