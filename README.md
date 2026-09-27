@@ -48,7 +48,6 @@ Abaixo está o formato de como os dados processados pelas APIs são exibidos na 
   - Requisições HTTP (`fetch`) utilizando os métodos `GET` (clima) e `POST` (IA).
   - Lógica assíncrona com `async` / `await`.
   - Manipulação do DOM (`querySelector`, `innerHTML`, `textContent`).
-  - **Web Speech API:** Para captura e transcrição de áudio do microfone.
 - **APIs Externas:**
   - `OpenWeatherMap API`: Fornece os dados meteorológicos.
   - `Groq API (Modelos OpenAI)`: Processa as variáveis e gera textos de sugestão.
