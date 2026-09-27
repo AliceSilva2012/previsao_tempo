@@ -21,7 +21,6 @@ Esse projeto destaca conceitos avançados de manipulação do DOM, consumo de m�
 ## ⚙️ Funcionalidades
 
 - **Busca Meteorológica:** Consulta em tempo real da temperatura, umidade e ícones climáticos através da API do OpenWeatherMap.
-- **Pesquisa por Voz:** Integração com a `SpeechRecognition` nativa do navegador, permitindo que o usuário dite o nome da cidade sem precisar digitar.
 - **Sugestão de Roupas (IA):** Envio dos dados climáticos atuais (temperatura e umidade) para a IA (via Groq API), que processa e retorna em tela uma sugestão de vestimenta adequada.
 - **Tratamento de Assincronicidade:** Uso de `async/await` e blocos `try/catch` para lidar com requisições na web e garantir uma experiência fluida.
 
