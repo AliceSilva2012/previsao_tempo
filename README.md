@@ -6,7 +6,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-> Uma aplicação web interativa de previsão do tempo para consultar a condiçao do clima em tempo real e receber sugestões de roupas geradas por Inteligência Artificial.
+> Uma aplicação web interativa de previsão do tempo para consultar a condiçáo do clima em tempo real e receber sugestões de roupas geradas por Inteligência Artificial.
 
 ---
 
