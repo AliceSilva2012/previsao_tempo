@@ -94,4 +94,4 @@ graph LR;
     Root[📁 Projeto Previsão do Tempo]
     Root --> HTML[📄 index.html - Estrutura principal]
     Root --> CSS[🎨 style.css - Estilização visual]
-    Root --> JS[📜 script.js - Lógica das APIs e voz]
+    Root --> JS[📜 script.js - Lógica das APIs]
