@@ -91,7 +91,7 @@ Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga
 
 ## 📁 Estrutura do Arquivo
 
-graph TD
+```mermaid
     A[previsao_tempo] --> B[index.html]
     A --> C[style.css]
     A --> D[script.js]
@@ -99,3 +99,4 @@ graph TD
     style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
     style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
     style D fill:#f7df1e,stroke:#333,stroke-width:2px,color:#000
+```
