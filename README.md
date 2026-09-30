@@ -92,6 +92,7 @@ Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga
 ## 📁 Estrutura do Arquivo
 
 ```mermaid
+graph TD
     A[previsao_tempo] --> B[index.html]
     A --> C[style.css]
     A --> D[script.js]
