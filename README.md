@@ -91,9 +91,11 @@ Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga
 
 ## 📁 Estrutura do Arquivo
 
-```mermaid
-graph LR;
-    Root[📁 Projeto Previsão do Tempo]
-    Root --> HTML[📄 index.html - Estrutura principal]
-    Root --> CSS[🎨 style.css - Estilização visual]
-    Root --> JS[📜 script.js - Lógica das APIs]
+graph TD
+    A[previsao_tempo] --> B[index.html]
+    A --> C[style.css]
+    A --> D[script.js]
+
+    style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#f7df1e,stroke:#333,stroke-width:2px,color:#000
