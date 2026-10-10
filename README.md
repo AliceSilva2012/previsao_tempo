@@ -58,7 +58,7 @@ Abaixo está o formato de como os dados processados pelas APIs são exibidos na 
 
 ## 🌎 Teste meu projeto no seu navegador! 
 
-- **Previsão do Tempo:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://pprevisaotempo.netlify.app)
+- **Previsão do Tempo:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/previsao_tempo/)
 
 ---
 
