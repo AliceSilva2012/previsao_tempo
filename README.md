@@ -7,6 +7,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-E96E50?style=for-the-badge&logo=openweather&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F05A28?style=for-the-badge&logo=groq&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Acessar_Site-8A2BE2?style=for-the-badge&logo=githubpages&logoColor=white)](https://alicesilva2012.github.io/previsao_tempo/)
 
 > Uma aplicação web interativa de previsão do tempo para consultar a condição do clima em tempo real e receber sugestões de roupas geradas por Inteligência Artificial.
 
@@ -67,6 +68,8 @@ Abaixo está o formato de como os dados processados pelas APIs são exibidos na 
 Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga os passos abaixo:
 
 ### Pré-requisitos
+
+- Uma chave de API gratuita da [Groq](https://console.groq.com) (crie uma conta para gerar a sua) e do [OpenWeatherMap](https://openweathermap.org/api).
 - Um navegador web moderno (Google Chrome, Firefox, Edge, etc.).
 - [Git](https://git-scm.com) instalado na máquina.
 - Um editor de código como o [VS Code](https://code.visualstudio.com/) (opcional).
@@ -83,9 +86,12 @@ Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga
    cd previsao_tempo
    ```
 
-3. **Execute a aplicação:**
+3. **Configure suas chaves de API:**
+   - Abra o arquivo `script.js` e insira suas chaves da **OpenWeatherMap** e da **Groq** nas variáveis correspondentes.
+
+4. **Execute a aplicação:**
    - Dê um duplo clique no arquivo `index.html` para abri-lo no navegador, ou
-   - Clique com o botão direito no `index.html` e selecione **Open with Live Server**.
+   - Clique com o botão direito no `index.html` e selecione `Open with Live Server`.
 
 ---
 
